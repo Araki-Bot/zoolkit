@@ -7,7 +7,7 @@ setup(
     author="Pranoy Majumdar",
     author_email="officialpranoy@gmail.com",
     packages=find_packages(),
-    install_requires=['click', 'rich'],
+    install_requires=['click', 'rich', 'simple-term-menu'],
     entry_points='''
     [console_scripts]
     zoolkit=zoolkit.cli:cli
